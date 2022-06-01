@@ -14,7 +14,7 @@
  
 
 ## 1. 채팅앱 Awesome_ChattingApp 프로젝트
-![Awesome_chattiong_app_logo](다운로드.png)
+![Awesome_chatting_app_logo](Awesome_chatting_app_logo.png)
 
  > 프로젝트 팀원과 같이 제작했던 앱 로고
       
@@ -43,7 +43,7 @@
  
 
 위 문서들은 github community에서 repository 관리자에게 커뮤니티 문서에 대한 추천 리스트를 제공하는 문서입니다. repository의 Insights 탭에서 다음과 같이 확인하실 수 있습니다.
-![Awesome_chatting_app_community](다운로드_(1).png)
+![Awesome_chatting_app_community](Awesome_chatting_app_community.png)
 
  > github repository의 Insight탭에서 Community탭을 누르면 다음과 같은 창이 나온다.
  
@@ -76,7 +76,7 @@
 
 github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, PR 관리 등 소스코드의 명시 이외에도 프로젝트에 대한 다양한 정보를 제공하는 기능이 있습니다. 저희 팀 또한 개발과정중에 발생하는 프로젝트 이슈에 enhancement, bug 등의 태그를 부여하여 이슈의 특징에 대한 태깅을 진행했고 github project 탭을 기준으로 개발 진행에 대한 진행상황 관리 및 앞으로 해야하는 개발상황에 대한 분석을 진행하였으며 github wiki 문서를 작성하여 프로젝트에 대한 자세한 정보를 제공하고자 노력했습니다.
 
-![Awesome_chatting_app_wiki](다운로드_(2).png)
+![Awesome_chatting_app_wiki](Awesome_chatting_app_wiki.png)
  > Awesome_ChattingApp프로젝트의 github wiki페이지
  
 
@@ -100,7 +100,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
 ## 2. Demo project Space Invaders
 
-![Space_invaders_logo](다운로드_(3).png)
+![Space_invaders_logo](Space_invaders_logo.png)
  > space invaders 로고
 **원본 Space Invaders github 주소** : https://github.com/RobertoIA/Invaders
       
@@ -111,7 +111,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![SETB_logo](다운로드_(4).png)
+![SETB_logo](SETB_logo.png)
  > 시나리오 상에만 존재하는 가상의 SW 회사 SETB로고
  
 
@@ -119,7 +119,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Deploy_cycle](다운로드_(5).png)
+![Deploy_cycle](Deploy_cycle.png)
  > 전체적인 개발 과정 및 고객 납품, 사후처리 방식
  
 
@@ -133,6 +133,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 - Hotfix branch : 프로젝트에서 발생하는 버그의 수정이나 취약점을 보완, 또는 성능 향상을 위해 긴그밯게 배포되는 패치가 필요할 때 사용되는 branch.
 - Release branch : 새로 출시하는 버전의 배포를 진행하는 브랜치이다. develop 브랜치에서 배포할 수 있는 수준의 기능이 모이거나, 배포 일정이 될 때 배포를 진행한다. 최종적인 버그 수정이나 문서 작성등을 진행하며 release 브랜치와 직접적으로 관련된 작업이 아니라면 새로운 기능을 추가로 병합하지는 않으며 release 후 master branch에 병합한다.
 
+![branch](branch.png)
 > 설정한 branching 전략대로 branch 별 커밋을 작성한 모습. git log를 통해 확인했습니다.
    
 이 workflow structure는 따로 프로젝트를 진행하면서 얻은 노하우를 통해 도출된 workflow가 아니라 단순히 개발 실무에 사용하는 workflow는 어떤 것이 있으며 git 을 사용한 workflow 전략으로 branching 방법에 대한 단순한 개념을 토대로 도출한 workflow 입니다.
@@ -147,7 +148,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Best_practice](다운로드_(6).png)
+![Best_practice](Best_practice.png)
  > 팀에서 최종 도출이 된 Best Practice 개요
 
 저번 Awesome ChattingApp 프로젝트와 개발 과정에 대하여 변화한 점은 정형화된 개발 프로세스의 도입과 이슈관리 및 프로젝트 스프린트 관리를 진행할 수 있는 새로운 툴 Jira의 도입, Jenkins와 sonarqube 관련 플러그인을 도입하여 코드 품질에 대한 검사와 Jenkins를 통한 프로젝트 빌드 및 실행가능하며 배포가 가능한 형태의 파일을 제작한 것입니다. 
@@ -162,7 +163,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Issues](다운로드_(7).png)
+![Issues](Issues.png)
 > 주어진 요구사항을 토대로 간단한 문서화 작업 후 에픽 이슈로 분류한 모습
  
 
@@ -172,12 +173,12 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Compare](다운로드_(8).png)
+![Compare](Compare.png)
 보다시피 개발 후 도출물에 대한 퀄리티는 Best Practice를 적용한 쪽이 더 좋은 모습을 볼 수 있었습니다. 또한 Best Practice를 적용시켜 개발을 진행한 것이 개발 과정 중 발생하는 이슈에 대한 대처가 훨씬 깔끔했던 모습을 보이기도 했습니다.
 
  
 
-![JUnit_testcases](다운로드_(9).png)
+![JUnit_testcases](JUnit_testcases.png)
  > 프로젝트의 JUnit 테스트 케이스 일부
    
 또한 이전 Awesome Chatting App에서는 진행하지 못했던 테스트 케이스를 작성하고 모듈 별로 테스트를 진행하여 코드의 이상이 없는지 검증하는 과정을 거쳤습니다. Java는 JUnit이라는 외부 테스트 프레임워크가 존재합니다. 저희 팀은 이 프레임워크를 활용하여 함수 및 모듈에 대한 테스트를 진행했습니다.
@@ -186,7 +187,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Sonarlint](다운로드_(10).png)
+![Sonarlint](Sonarlint.png)
  > Intellij sonarqube 관련 플러그인 sonarlint
    
 코드 품질에 대한 검사도 진행했습니다. Best Practice를 완전히 따른다면 Sonarqube의 환경을 설정하여 정적 검사를 진행해야 했으나 팀끼리 공유 가능한 Jenkins와 sonarqube의 서버를 구축하는데 실패하여 local 환경에서 IDE의 플러그인을 설치하여 코드 정적 분석을 진행했습니다. 코드 룰셋의 경우는 플러그인이 default로 제공하는 룰셋을 사용했으며 위의 사진은 sonarlint 플러그인의 분석을 진행하여 나온 결과입니다.
@@ -195,7 +196,7 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
 CI/CD의 자동화가 가능한 툴인 Jenkins를 사용한 것도 이번 프로젝트의 잘했던 점 중 하나입니다.
 
-![Local_build](다운로드_(11).png)
+![Local_build](Local_build.png)
  > local 환경에 jenkins를 올려 프로젝트 빌드를 진행한 모습
    
 좌측 하단에서 보실 수 있는 것처럼 github repository와 연동하여 커밋이 올라갈 때마다 혹은 수동으로 빌드를 실행할 수 있고 완성된 빌드 버전을 토대로 고객에게 개발 후 도출된 기능을 체험해 볼 수 있는 프로토타입을 제작하여 제공할 수 있었습니다.

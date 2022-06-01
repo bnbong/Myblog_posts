@@ -14,27 +14,14 @@
  
 
 ## 1. 채팅앱 Awesome_ChattingApp 프로젝트
+![Awesome_chattiong_app_logo](다운로드.png)
 
  > 프로젝트 팀원과 같이 제작했던 앱 로고
-
-**Github Link** : <github.com/bnbong/Awesome_ChattingApp>
-
+      
+**Github Link** : github.com/bnbong/Awesome_ChattingApp      
+**Github Page Link** : bnbong.github.io/Awesome_ChattingApp/
  
-bnbong/Awesome_ChattingApp
-
-lecture Open Source sw, TEAM 두둥등장 Chatting APP Project - bnbong/Awesome_ChattingApp
-
-github.com
-Github Page Link : bnbong.github.io/Awesome_ChattingApp/
-
- 
-Welcome to Awesome_ChattingApp!
-
-Website for Awesome Chatting App
-
-bnbong.github.io
- 
-
+      
 아마도 소프트웨어 학과의 학생이 되고 난 이후로 가장 신경을 많이 썼고 많은 시간을 정직하게(?) 투자했던 프로젝트라고 생각이 듭니다.
 
  
@@ -51,14 +38,14 @@ bnbong.github.io
 
  
 
-때문에 오픈 소스 개발 방식은 원활한 협업을 위해 일종의 틀 혹은 규칙을 오픈 소스 기여자에게 제공합니다. github를 통해 오픈 소스 기여자가 열람 가능한 문서들은 기존 프로젝트 오너가 아닌 외부인이 해당 오픈 소스 프로젝트에 기여를 할 때 소스코드의 사용 및 접근 권한 취득에 대한 내용을 담은 CONTRIBUTING 문서, 혹은 해당 프로젝트의 릴리즈 버전의 보안 정책에 대한 내용을 담은 SECURITY 문서, 오픈 소스 기여자가 메인 github페이지로 PR을 보낼 때 해당 변경 사항을 빠르게 확인이 가능한 PULL_REQUEST_TEMPLATE 문서 등이 있습니다. 
+때문에 오픈 소스 개발 방식은 원활한 협업을 위해 일종의 틀 혹은 규칙을 오픈 소스 기여자에게 제공합니다. github를 통해 오픈 소스 기여자가 열람 가능한 문서들은 기존 프로젝트 오너가 아닌 외부인이 해당 오픈 소스 프로젝트에 기여를 할 때 소스코드의 사용 및 접근 권한 취득에 대한 내용을 담은 [CONTRIBUTING](https://github.com/bnbong/Awesome_ChattingApp/blob/master/CONTRIBUTING.md) 문서, 혹은 해당 프로젝트의 릴리즈 버전의 보안 정책에 대한 내용을 담은 [SECURITY](https://github.com/bnbong/Awesome_ChattingApp/blob/master/SECURITY.md) 문서, 오픈 소스 기여자가 메인 github페이지로 PR을 보낼 때 해당 변경 사항을 빠르게 확인이 가능한 [PULL_REQUEST_TEMPLATE](https://github.com/bnbong/Awesome_ChattingApp/blob/master/PULL_REQUEST_TEMPLATE.md) 문서 등이 있습니다. 
 
  
 
 위 문서들은 github community에서 repository 관리자에게 커뮤니티 문서에 대한 추천 리스트를 제공하는 문서입니다. repository의 Insights 탭에서 다음과 같이 확인하실 수 있습니다.
+![](다운로드 (2).png)
 
-
-github repository의 Insight탭에서 Community탭을 누르면 다음과 같은 창이 나온다.
+ > github repository의 Insight탭에서 Community탭을 누르면 다음과 같은 창이 나온다.
  
 
 이 외에도 개발자들의 코딩 규칙을 통일하는 코딩 컨벤션 또한 굉장히 중요한 협업 문서입니다. 그러나 저희 팀은 코딩 컨벤션에 대해서는 별 다른 가이드라인을 제공하지는 않았고 이는 프로젝트 완성 후 교수님께서 진행하신 프로젝트 점검에서 점수가 까이는 계기가 되었습니다ㅠㅠ 코딩 컨벤션은 전역 변수명 설정 방법에 대한 내용이나 굉장히 작게는 함수 선언 뒤에 붙는 괄호 혹은 콜론 ':' 앞에 띄어쓰기를 몇 칸 정도 넣어야 하는지에 대한 내용이 들어갈 수 있습니다.
@@ -69,12 +56,13 @@ github repository의 Insight탭에서 Community탭을 누르면 다음과 같은
 
  
 
-프로젝트를 진행하면서 좋았던 점
+- **프로젝트를 진행하면서 좋았던 점**      
+
 일단, 오픈 소스 제공자의 입장에서 github를 적극적으로 활용하여 최대한 다양한 가이드라인을 제공하고자 노력했다는 점이 프로젝트를 성공적으로 진행할 수 있었던 가장 큰 이유라고 생각이 듭니다.
 
  
 
-앞서 하이퍼링크를 통해 걸어 두었던 여러 오픈 소스 기여에 대한 문서들을 한글 버전과 영문 버전으로 제작했으며 또한 해당 프로젝트의 라이센스로 MIT License를 채택하여 프로젝트의 라이센스 명시를 진행했습니다.
+앞서 하이퍼링크를 통해 걸어 두었던 여러 오픈 소스 기여에 대한 문서들을 한글 버전과 영문 버전으로 제작했으며 또한 해당 프로젝트의 라이센스로 [MIT License](https://github.com/bnbong/Awesome_ChattingApp/blob/master/LICENSE)를 채택하여 프로젝트의 라이센스 명시를 진행했습니다.
 
  
 
@@ -82,17 +70,17 @@ github repository의 Insight탭에서 Community탭을 누르면 다음과 같은
 
  
 
-이 공유 docs문서의 경우는 협업을 진행하면서 다양한 보고 사항이 생길 수 있는데 그 보고들을 한번에 기록할 수 있는 장소가 있으면 좋겠다고 생각하여 나온 아이디어입니다. 자유로운 형태의 글쓰기가 가능한 대신, 글의 양식이나 글의 작성 방법에 대한 일종의 작성 규칙을 부여하여 난잡해보이지 않고 나름대로 깔끔하게 문서로된 소통이 가능하게 하였습니다. 프로젝트의 권한을 얻지 않은 외부인이 해당 문서의 무분별한 수정을 방지하기 위해 담당자가 따로 문서를 사용할 사용자에게 권한을 부여하는 형태로 보안문제를 해결했다는 점도 있습니다.
+이 [공유 docs문서](https://docs.google.com/document/d/1BNw_6XDqAEb_z2QM1GEHxnfU61NbPqQNSCarEJzmlIg/edit)의 경우는 협업을 진행하면서 다양한 보고 사항이 생길 수 있는데 그 보고들을 한번에 기록할 수 있는 장소가 있으면 좋겠다고 생각하여 나온 아이디어입니다. 자유로운 형태의 글쓰기가 가능한 대신, 글의 양식이나 글의 작성 방법에 대한 일종의 작성 규칙을 부여하여 난잡해보이지 않고 나름대로 깔끔하게 문서로된 소통이 가능하게 하였습니다. 프로젝트의 권한을 얻지 않은 외부인이 해당 문서의 무분별한 수정을 방지하기 위해 담당자가 따로 문서를 사용할 사용자에게 권한을 부여하는 형태로 보안문제를 해결했다는 점도 있습니다.
 
  
 
 github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, PR 관리 등 소스코드의 명시 이외에도 프로젝트에 대한 다양한 정보를 제공하는 기능이 있습니다. 저희 팀 또한 개발과정중에 발생하는 프로젝트 이슈에 enhancement, bug 등의 태그를 부여하여 이슈의 특징에 대한 태깅을 진행했고 github project 탭을 기준으로 개발 진행에 대한 진행상황 관리 및 앞으로 해야하는 개발상황에 대한 분석을 진행하였으며 github wiki 문서를 작성하여 프로젝트에 대한 자세한 정보를 제공하고자 노력했습니다.
 
-
-Awesome_ChattingApp프로젝트의 github wiki페이지
+![](다운로드 (3).png)
+ > Awesome_ChattingApp프로젝트의 github wiki페이지
  
 
-소스코드에 대한 버전관리를 진행하는 github사이트 외에도 소스코드 기여자가 아닌 일반인이 볼 수 있는 사이트인 github page를 운영하였습니다. 해당 페이지의 첫 화면에는 github readme와 비슷한 구성의 문서를 볼 수 있습니다. 첫 화면에 볼 수 있는 내용은 프로젝트 및 앱에 대한 개요와 기능, 라이센스, 다운로드 버전 및 다운로드 방법과 권장사양, 이슈 리포트와 troubleshooting 가이드, wiki페이지 링크와 개발자 소개 그리고 마지막으로 프로젝트 기여 방법과 보안정책 및 PR 방법에 대한 설명을 기재했습니다. github page는 다양한 템플릿이 존재하는데, 저희 팀은 jekyll-theme-architect 템플릿을 사용했습니다. 해당 템플릿의 좋은 점은 최신 버전의 릴리즈를 zip 혹은 tar.gz 파일형태로 다운이 가능하다는 점입니다. 깔끔하고 직관적인 UI배치도 마찬가지구요.
+소스코드에 대한 버전관리를 진행하는 github사이트 외에도 소스코드 기여자가 아닌 일반인이 볼 수 있는 사이트인 [github page](https://bnbong.github.io/Awesome_ChattingApp/)를 운영하였습니다. 해당 페이지의 첫 화면에는 github readme와 비슷한 구성의 문서를 볼 수 있습니다. 첫 화면에 볼 수 있는 내용은 프로젝트 및 앱에 대한 개요와 기능, 라이센스, 다운로드 버전 및 다운로드 방법과 권장사양, 이슈 리포트와 troubleshooting 가이드, wiki페이지 링크와 개발자 소개 그리고 마지막으로 프로젝트 기여 방법과 보안정책 및 PR 방법에 대한 설명을 기재했습니다. github page는 다양한 템플릿이 존재하는데, 저희 팀은 jekyll-theme-architect 템플릿을 사용했습니다. 해당 템플릿의 좋은 점은 최신 버전의 릴리즈를 zip 혹은 tar.gz 파일형태로 다운이 가능하다는 점입니다. 깔끔하고 직관적인 UI배치도 마찬가지구요.
 
  
 
@@ -100,7 +88,8 @@ Awesome_ChattingApp프로젝트의 github wiki페이지
 
  
 
-프로젝트를 진행하면서 아쉬웠던 점
+ - **프로젝트를 진행하면서 아쉬웠던 점**      
+
 가장 아쉬웠던 점은 이슈 관리의 부재입니다. 올해 하반기에 자세하게 배운 내용이지만, 프로젝트의 이슈관리는 더 좋은 품질의 결과물을 제작하는데 필수입니다. 팀 내에서 이슈에 대한 관리를 맡는 팀원을 두어 프로젝트를 진행했지만, github에서 제공하는 issue탭 만으로는 발생한 이슈들에 대한 관리가 어려웠습니다. 특히 발생한 이슈가 프로젝트의 어떤 기능에서 발생했는지 빠르게 파악하지 못해 프로젝트 진행에 불필요한 시간이 걸리기도 했었습니다. 이슈에 대한 관리를 외부 툴을 사용하여(JIRA 등) 진행했다면 어떤 기능에서 이슈가 많이 발생하는지 이슈 해소에 얼마나 오랜 시간이 소요 되는지 등의 통계 자료를 추출하여 프로젝트의 관리를 진행할 수 있었지만 그러지 않았다는 점이 제일 아쉬웠습니다.
 
  
@@ -109,54 +98,43 @@ Awesome_ChattingApp프로젝트의 github wiki페이지
 
  
 
-2. Demo project Space Invaders
+## 2. Demo project Space Invaders
 
-space invaders 로고
-원본 Space Invaders github 주소 : github.com/RobertoIA/Invaders
-
- 
-RobertoIA/Invaders
-
-Space Invaders clone, written in Java. Contribute to RobertoIA/Invaders development by creating an account on GitHub.
-
-github.com
-Github Link : github.com/ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice
-
- 
-ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice
-
-Contribute to ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice development by creating an account on GitHub.
-
-github.com
- 
-
+![](다운로드 (4).png)
+ > space invaders 로고
+**원본 Space Invaders github 주소** : github.com/RobertoIA/Invaders
+      
+**Github Link** : github.com/ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice
+       
+   
 많은 사람들의 사랑을 받았고 지금까지도 변형된 형태로 나오고 있는 유명 고전 게임 space invaders 입니다. 2020년도 하반기에 진행했던 해당 프로젝트는 상단의 Java로 작성된 space invaders 소스를 가지고 추가적인 기능 추가 및 버그 수정 등을 진행하는 작업을 했습니다. 이번 프로젝트는 Awesome ChattingApp 처럼 오픈 소스를 제공하는 목적이 아니라 가상의 소프트웨어 개발회사의 기획 혁신팀으로 배정이 되어 있는 시나리오에서 모 회사의 원활한 개발을 위한 Best Practice를 구상하고 Space invader을 Best Practice를 적용시킬 demo project로 설정해서 Best Practice를 검증을 하는 용도의 프로젝트 였습니다.
 
  
 
-
-시나리오 상에만 존재하는 가상의 SW 회사 SETB로고
+![](다운로드 (5).png)
+ > 시나리오 상에만 존재하는 가상의 SW 회사 SETB로고
  
 
 고객에게 고객 맞춤 소프트웨어를 제공하는 가상의 회사 SETB 사의 Best workflow를 구성함과 동시에 고객에게 프로젝트를 납품하고 사후 관리를 진행하는 flow과정 또한 구상했습니다. 해당 flow는 다음과 같습니다.
 
  
 
-
-전체적인 개발 과정 및 고객 납품, 사후처리 방식
+![](다운로드 (6).png)
+ > 전체적인 개발 과정 및 고객 납품, 사후처리 방식
  
 
 이번 프로젝트 부터 보다 나은 git branching 전략에 대해 구상하는 과정도 진행했습니다. 브랜칭 전략 또한 팀 내에서 프로젝트를 진행하면서 변화를 주었으나 초반에 구상을 해뒀던 branching 전략은 다음과 같습니다.
 
  
 
-Master branch : develop branch에서 개발이 완료된 기능들을 중간 정리 및 관리를 하는 용도이며 프로젝트를 완성하여 배포를 진행하기 전, 배포 전략에 대한 구상을 하는 용도로도 사용이 된다. 완성된 배포 전략에 따라 release branch로 넘어가서 배포를 진행한다.
-Develop branch : 주요 기능을 개발하고 features branch에서 개발된 모든 feature들을 병합하고 관리하는 용도이며 상시로 버그를 수정한 커밋들이 추가되고 새로운 기능 추가가 있을 경우 해당 기능에 대한 이름을 가진 features branch를 생성하여 작업한다.
-Features branch : develop에서 파생되어 추가적인 feature을 개발할 때 사용하는 용도이며 추가 feature 개발이 완료되면 features branch에 존재하는 모든 commit들은 develop branch로 rebase한다.
-Hotfix branch : 프로젝트에서 발생하는 버그의 수정이나 취약점을 보완, 또는 성능 향상을 위해 긴그밯게 배포되는 패치가 필요할 때 사용되는 branch.
-Release branch : 새로 출시하는 버전의 배포를 진행하는 브랜치이다. develop 브랜치에서 배포할 수 있는 수준의 기능이 모이거나, 배포 일정이 될 때 배포를 진행한다. 최종적인 버그 수정이나 문서 작성등을 진행하며 release 브랜치와 직접적으로 관련된 작업이 아니라면 새로운 기능을 추가로 병합하지는 않으며 release 후 master branch에 병합한다.
+- Master branch : develop branch에서 개발이 완료된 기능들을 중간 정리 및 관리를 하는 용도이며 프로젝트를 완성하여 배포를 진행하기 전, 배포 전략에 대한 구상을 하는 용도로도 사용이 된다. 완성된 배포 전략에 따라 release branch로 넘어가서 배포를 진행한다.
+- Develop branch : 주요 기능을 개발하고 features branch에서 개발된 모든 feature들을 병합하고 관리하는 용도이며 상시로 버그를 수정한 커밋들이 추가되고 새로운 기능 추가가 있을 경우 해당 기능에 대한 이름을 가진 features branch를 생성하여 작업한다.
+- Features branch : develop에서 파생되어 추가적인 feature을 개발할 때 사용하는 용도이며 추가 feature 개발이 완료되면 features branch에 존재하는 모든 commit들은 develop branch로 rebase한다.
+- Hotfix branch : 프로젝트에서 발생하는 버그의 수정이나 취약점을 보완, 또는 성능 향상을 위해 긴그밯게 배포되는 패치가 필요할 때 사용되는 branch.
+- Release branch : 새로 출시하는 버전의 배포를 진행하는 브랜치이다. develop 브랜치에서 배포할 수 있는 수준의 기능이 모이거나, 배포 일정이 될 때 배포를 진행한다. 최종적인 버그 수정이나 문서 작성등을 진행하며 release 브랜치와 직접적으로 관련된 작업이 아니라면 새로운 기능을 추가로 병합하지는 않으며 release 후 master branch에 병합한다.
 
-설정한 branching 전략대로 branch 별 커밋을 작성한 모습. git log를 통해 확인했습니다.
+> 설정한 branching 전략대로 branch 별 커밋을 작성한 모습. git log를 통해 확인했습니다.
+   
 이 workflow structure는 따로 프로젝트를 진행하면서 얻은 노하우를 통해 도출된 workflow가 아니라 단순히 개발 실무에 사용하는 workflow는 어떤 것이 있으며 git 을 사용한 workflow 전략으로 branching 방법에 대한 단순한 개념을 토대로 도출한 workflow 입니다.
 
  
@@ -169,8 +147,9 @@ Release branch : 새로 출시하는 버전의 배포를 진행하는 브랜치�
 
  
 
+![](다운로드 (7).png)
+ > 팀에서 최종 도출이 된 Best Practice 개요
 
-팀에서 최종 도출이 된 Best Practice 개요
 저번 Awesome ChattingApp 프로젝트와 개발 과정에 대하여 변화한 점은 정형화된 개발 프로세스의 도입과 이슈관리 및 프로젝트 스프린트 관리를 진행할 수 있는 새로운 툴 Jira의 도입, Jenkins와 sonarqube 관련 플러그인을 도입하여 코드 품질에 대한 검사와 Jenkins를 통한 프로젝트 빌드 및 실행가능하며 배포가 가능한 형태의 파일을 제작한 것입니다. 
 
  
@@ -183,38 +162,42 @@ Release branch : 새로 출시하는 버전의 배포를 진행하는 브랜치�
 
  
 
-
-주어진 요구사항을 토대로 간단한 문서화 작업 후 에픽 이슈로 분류한 모습
+![](다운로드 (8).png)
+> 주어진 요구사항을 토대로 간단한 문서화 작업 후 에픽 이슈로 분류한 모습
  
 
-프로젝트를 진행하면서 좋았던 점
+- **프로젝트를 진행하면서 좋았던 점**
+   
 우선, 정형화된 개발 프로세스 덕분에 개발에 소요되는 시간이 획기적으로 줄었다는 점입니다. 저희 팀이 설정한 Best Practice의 효율성을 검증하기 위해 본격적인 개발에 앞서 Best Practice를 적용하지 않고 개발을 진행한다면 어느 정도의 작업 효율을 보일까? 라는 궁금증이 들어 Best Practice를 적용시키지 않고 개발자의 업무만 분담한 채로 개발을 진행해 보았습니다. 그 결과는 다음과 같습니다.
 
  
 
-
+![](다운로드 (9).png)
 보다시피 개발 후 도출물에 대한 퀄리티는 Best Practice를 적용한 쪽이 더 좋은 모습을 볼 수 있었습니다. 또한 Best Practice를 적용시켜 개발을 진행한 것이 개발 과정 중 발생하는 이슈에 대한 대처가 훨씬 깔끔했던 모습을 보이기도 했습니다.
 
  
 
-
-프로젝트의 JUnit 테스트 케이스 일부
+![](다운로드 (10).png)
+ > 프로젝트의 JUnit 테스트 케이스 일부
+   
 또한 이전 Awesome Chatting App에서는 진행하지 못했던 테스트 케이스를 작성하고 모듈 별로 테스트를 진행하여 코드의 이상이 없는지 검증하는 과정을 거쳤습니다. Java는 JUnit이라는 외부 테스트 프레임워크가 존재합니다. 저희 팀은 이 프레임워크를 활용하여 함수 및 모듈에 대한 테스트를 진행했습니다.
 
  
 
  
 
-
-Intellij sonarqube 관련 플러그인 sonarlint
+![](다운로드 (11).png)
+ > Intellij sonarqube 관련 플러그인 sonarlint
+   
 코드 품질에 대한 검사도 진행했습니다. Best Practice를 완전히 따른다면 Sonarqube의 환경을 설정하여 정적 검사를 진행해야 했으나 팀끼리 공유 가능한 Jenkins와 sonarqube의 서버를 구축하는데 실패하여 local 환경에서 IDE의 플러그인을 설치하여 코드 정적 분석을 진행했습니다. 코드 룰셋의 경우는 플러그인이 default로 제공하는 룰셋을 사용했으며 위의 사진은 sonarlint 플러그인의 분석을 진행하여 나온 결과입니다.
 
  
 
 CI/CD의 자동화가 가능한 툴인 Jenkins를 사용한 것도 이번 프로젝트의 잘했던 점 중 하나입니다.
 
-
-local 환경에 jenkins를 올려 프로젝트 빌드를 진행한 모습
+![](다운로드 (12).png)
+ > local 환경에 jenkins를 올려 프로젝트 빌드를 진행한 모습
+   
 좌측 하단에서 보실 수 있는 것처럼 github repository와 연동하여 커밋이 올라갈 때마다 혹은 수동으로 빌드를 실행할 수 있고 완성된 빌드 버전을 토대로 고객에게 개발 후 도출된 기능을 체험해 볼 수 있는 프로토타입을 제작하여 제공할 수 있었습니다.
 
  
@@ -223,7 +206,8 @@ local 환경에 jenkins를 올려 프로젝트 빌드를 진행한 모습
 
  
 
-프로젝트를 진행하면서 아쉬웠던 점
+- **프로젝트를 진행하면서 아쉬웠던 점**
+   
 가장 아쉬웠던 점은 Jenkins와 Sonarqube의 기능들을 제대로 활용하지 못한 것이었습니다. Jenkins의 경우 프로젝트의 github과 연동을 하여 github에 올라가 있는 소스들에 대한 빌드는 가능했으나, 빌드 후 github release에 deploy 하는 과정을 자동화 시키지 못했으며, Sonarqube의 경우는 프로젝트를 연동시키는 것 자체를 진행하지 못하여 Jenkins 연동이 불가능해 빌드 중 정적분석을 진행하지 못했습니다. 때문에 차선책으로 Intellij의 sonarlint플러그인을 사용하여 정적 분석을 진행했습니다. Jenkins와 Sonarqube둘다 공통적으로 팀원 모두가 사용이 가능한 서버에 올리지 못해 빌드와 정적 분석결과에 대한 공유를 하지 못했습니다.
 
  
@@ -234,5 +218,5 @@ local 환경에 jenkins를 올려 프로젝트 빌드를 진행한 모습
 
  
 
-마치며..
+## 마치며..
 올 한해는 작년과 달리 단순히 프로그래밍 언어에 대한 공부가 아니라 현업 소프트웨어 개발은 어떤 식으로 진행되어야 하는가에 대한 내용을 공부할 수 있었던 의미있는 한 해였습니다. 어쩌면 길게 느껴지기도, 짧게 느껴지기도 했던 한 해였지만 이렇게 회고 형식으로 한 해 동안 진행했던 프로젝트의 회고를 진행해보니 고쳐야할 점도 많이 보이고, 잘했던 점도 인지 할 수 있게 되어 2020년 한 해 동안 좋은 경험을 하지 않았나 싶습니다. 현재는 창업 팀에서 웹 백앤드 개발을 담당하여 웹개발에 집중을 하고 있고 게임 개발 쪽으로도 관심이 있어서 앞으로도 다양한 프로젝트를 스스로 진행해보고 싶습니다. 그러나 하고싶은건 많은데 시간이 이를 허락해줄지는 모르겠네요. 여러모로 아쉬웠던 2020년도였지만 곧 다가오는 2021년에는 좋은 일만 가득했으면 좋겠습니다.

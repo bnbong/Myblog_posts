@@ -5,14 +5,14 @@ Quick Sort 알고리즘은 말 그대로 매우 빠른 정렬 수행 능력을 �
 
 다른 값과 비교연산을 수행하는 기준 원소는 'Pivot' 이라고 불립니다. 이 pivot 값을 통해 진행되는 퀵소트 알고리즘의 정렬 과정을 간단하게 설명하자면 정렬을 수행해야하는 데이터의 값들 중에서 Pivot이 되는 값을 설정한 후 pivot 자기 자신을 제외한 나머지 원소들과 비교를 진행합니다. 오름차순 정렬을 진행한다는 가정 하에 비교하는 원소가 pivot 값보다 작다면 pivot 앞쪽에 위치하도록 설정하고 크다면 pivot 뒤쪽에 위치하도록 값의 위치를 변경합니다.
 
-![](.gif)
+![QSA](img.gif)
  > Quick Sort Algorithm 수행 모습 - 출처 : wikipedia
    
 오름차순 퀵소트 알고리즘을 수행하게 되면 결국 피벗 앞에는 피벗보다 작은 원소들이 오게 되고 피벗 뒤에는 피벗 보다 큰 원소들이 위치하게 됩니다. 피벗을 기준으로 데이터들의 리스트를 둘로 분할하여 해당 퀵소트를 재귀적으로 반복하여 분할된 리스트의 크기가 0이나 1이 되면 알고리즘 수행이 종료됩니다.
 
 
 
-![](image1.png)
+![dividing_pivot](dividing_pivot.png)
  > 피벗 값을 기준으로 리스트를 둘로 쪼개는 모습
    
 해당 알고리즘을 C++기반의 알고리즘 언어로 표현하게 되면 다음과 같습니다. 하단에 작성된 알고리즘은 C++ 기반으로 작성이 되었으나, 단순히 알고리즘을 표현하기 위해 세부 문법을 고려하지 않고 작성하였기 때문에 문법적인 오류가 존재할 수 있습니다.
@@ -46,7 +46,7 @@ void partition (index low, index high, index& pivotpoint) { // partition two lis
 ```
 정렬을 수행하는 리스트의 첫 번째 원소를 S[0]이 아니라 S[1]이라고 가정을 해두고 partition 함수를 처음으로 수행하면 다음과 같은 결과가 나오게 됩니다.
 
-![]()
+![partition_result](partition_result.png)
  > partition 함수의 수행 결과
    
 여기서, 해당 알고리즘은 pivot을 리스트의 첫 번째 값으로 설정하고 퀵소트 알고리즘을 수행했습니다. partition함수의 수행 로그를 따라가 보면 S[1]에 저장된 원소인 15가 pivot값으로 설정이 되었고 리스트의 인덱스의 위치를 가리키는 i와 j의 값에 변화를 주면서 S[i]와 S[j] 값을 비교하여 자리바꿈을 진행하면서 pivot보다 큰 값과 작은 값을 분류하는 작업을 합니다. 
@@ -63,13 +63,13 @@ __*T(n) = n - 1*__
 
 퀵소트 알고리즘을 사용하여 n개의 원소의 개수를 가지는 리스트를 정렬하는데 걸리는 시간을 T(n)이라고 할 때 시간 복잡도 T(n)의 값은 다음과 같은 풀이과정을 통해 얻을 수 있습니다.
 
-![]()
+![QSA_time_complexity](QSA_time_complexity.png)
  > Quick Sort Algorithm의 평균 time complexity
    
 평균적으로 퀵소트 알고리즘은 nlog2n이라는 시간 복잡도를 얻게 됩니다. worst case의 경우는 pivot 값을 정렬을 수행하는 리스트의 최솟값 혹은 최댓값으로 설정할 때 발생하게 됩니다. 최솟값 혹은 최댓값이 pivot으로 설정되었을 경우, 퀵소트 알고리즘을 수행하면 pivot값을 기준으로 분할되는 리스트는 항상 한쪽은 0개, 한쪽은 n-1개로 분할이 되게 됩니다. 이 경우 n-1개로 분할된 리스트는 n-1번 비교연산을 진행하고 이 과정을 총 n번 반복하게 되므로 최악의 time complexity가 도출되게 됩니다.
 
 
-![]()
+![QSA_worst_time_complexity](QSA_worst_time_complexity.png)
  > Quick Sort Algorithm의 worst-case time complexity
    
 이를 통해 quick sort algorithm을 사용할 때는 pivot값을 어느 값으로 설정하냐에 따라 매우 효율적인 알고리즘이 될 수도, 매우 비효율적인 알고리즘이 될 수도 있습니다. 따라서 빠르고 안정적인 수행 시간을 얻기 위해서는 pivot값 설정 전략에 대한 고민이 필요합니다.
@@ -148,6 +148,7 @@ def quick_sort_ASC(arr, start, end, comp, exchange): # 오름차순으로 정렬
 |3000	|689	|0.01600360870361328|
 |4000	|997	|0.02200460433959961|
 |5000	|541	|0.027006864547729492|
+   
 각 input size에 맞는 리스트들의 원소는 python의 randint 함수를 사용해서 채워넣었습니다. randint 함수 기반의 random input generator에 의해 해당 리스트에 중복이 되는 원소가 들어가는 경우도 있어서 알고리즘을 작동시키는 매 시행마다 input size가 커진다고 해서 무조건 exchange 횟수와 알고리즘 실행 시간이 늘어나지는 않았습니다. 다만, input size가 커질수록 exchange 횟수와 알고리즘 실행 시간은 대체로 늘어나는 경향을 보입니다. Comparision 횟수는 퀵소트 알고리즘 이론과 동일하게 input size 만큼의 comparision연산을 수행한 것을 확인할 수 있었습니다.
 
 
@@ -399,9 +400,9 @@ print("number of exchange : ", exchange)
 
 이하는 각 결과를 pivot 설정 방법에 따라 차트로 그 결과를 정리한 모습입니다. Number of comparision은 모두 n과 같은 값을 나타내므로 제외시켰고 수행 시간과 exchange 값의 결과의 균형을 맞추기 위해 Time 값에 10000을 곱해 차트로 나타내보았습니다.
 
-![]()
-![]()
-![]()
+![first](first.png)
+![second](second.png)
+![third](third.png)
 
 
 위 그래프의 결과에 따른 각 pivot 설정 방법에 따라 알고리즘 실행 시간과 exchange 횟수의 평균을 내본 결과는 다음과 같습니다.

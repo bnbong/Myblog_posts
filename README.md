@@ -28,3 +28,6 @@
  > rm posts/**/**/*.png
  > rm posts/**/**/*.gif
 ```
+   
+# License   
+Applied Apache-2.0 License: [License](https://github.com/bnbong/Myblog_posts/blob/master/License)

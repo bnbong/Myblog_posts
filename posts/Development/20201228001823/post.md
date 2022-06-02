@@ -14,7 +14,8 @@
  
 
 ## 1. 채팅앱 Awesome_ChattingApp 프로젝트
-![Awesome_chatting_app_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png?raw=true" width="100%" height="30%" title="Awesome_chatting_app_logo" alt="Awesome_chatting_app_logo"></img>
+<!-- ![Awesome_chatting_app_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png?raw=true) -->
 
  > 프로젝트 팀원과 같이 제작했던 앱 로고
       
@@ -43,7 +44,9 @@
  
 
 위 문서들은 github community에서 repository 관리자에게 커뮤니티 문서에 대한 추천 리스트를 제공하는 문서입니다. repository의 Insights 탭에서 다음과 같이 확인하실 수 있습니다.
-![Awesome_chatting_app_community](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(1).png?raw=true)
+   
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(1).png?raw=true" width="100%" height="30%" title="Awesome_chatting_app_community" alt="Awesome_chatting_app_community"></img>
+<!-- ![Awesome_chatting_app_community](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(1).png?raw=true) -->
 
  > github repository의 Insight탭에서 Community탭을 누르면 다음과 같은 창이 나온다.
  
@@ -76,7 +79,8 @@
 
 github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, PR 관리 등 소스코드의 명시 이외에도 프로젝트에 대한 다양한 정보를 제공하는 기능이 있습니다. 저희 팀 또한 개발과정중에 발생하는 프로젝트 이슈에 enhancement, bug 등의 태그를 부여하여 이슈의 특징에 대한 태깅을 진행했고 github project 탭을 기준으로 개발 진행에 대한 진행상황 관리 및 앞으로 해야하는 개발상황에 대한 분석을 진행하였으며 github wiki 문서를 작성하여 프로젝트에 대한 자세한 정보를 제공하고자 노력했습니다.
 
-![Awesome_chatting_app_wiki](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(2).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(2).png?raw=true" width="100%" height="30%" title="Awesome_chatting_app_wiki" alt="Awesome_chatting_app_wiki"></img>
+<!-- ![Awesome_chatting_app_wiki](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(2).png?raw=true) -->
 
  > Awesome_ChattingApp프로젝트의 github wiki페이지
  
@@ -101,7 +105,8 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
 ## 2. Demo project Space Invaders
 
-![Space_invaders_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(3).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(3).png?raw=true" width="100%" height="30%" title="Space_invaders_logo" alt="Space_invaders_logo"></img>
+<!-- ![Space_invaders_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(3).png?raw=true) -->
  > space invaders 로고
 **원본 Space Invaders github 주소** : https://github.com/RobertoIA/Invaders
       
@@ -111,16 +116,16 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 많은 사람들의 사랑을 받았고 지금까지도 변형된 형태로 나오고 있는 유명 고전 게임 space invaders 입니다. 2020년도 하반기에 진행했던 해당 프로젝트는 상단의 Java로 작성된 space invaders 소스를 가지고 추가적인 기능 추가 및 버그 수정 등을 진행하는 작업을 했습니다. 이번 프로젝트는 Awesome ChattingApp 처럼 오픈 소스를 제공하는 목적이 아니라 가상의 소프트웨어 개발회사의 기획 혁신팀으로 배정이 되어 있는 시나리오에서 모 회사의 원활한 개발을 위한 Best Practice를 구상하고 Space invader을 Best Practice를 적용시킬 demo project로 설정해서 Best Practice를 검증을 하는 용도의 프로젝트 였습니다.
 
  
-
-![SETB_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(4).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(4).png?raw=true" width="100%" height="30%" title="SETB_logo" alt="SETB_logo"></img>
+<!-- ![SETB_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(4).png?raw=true) -->
  > 시나리오 상에만 존재하는 가상의 SW 회사 SETB로고
  
 
 고객에게 고객 맞춤 소프트웨어를 제공하는 가상의 회사 SETB 사의 Best workflow를 구성함과 동시에 고객에게 프로젝트를 납품하고 사후 관리를 진행하는 flow과정 또한 구상했습니다. 해당 flow는 다음과 같습니다.
 
  
-
-![Deploy_cycle](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(5).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(5).png?raw=true" width="100%" height="30%" title="Deploy_cycle" alt="Deploy_cycle"></img>
+<!-- ![Deploy_cycle](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(5).png?raw=true) -->
  > 전체적인 개발 과정 및 고객 납품, 사후처리 방식
  
 
@@ -134,7 +139,8 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 - Hotfix branch : 프로젝트에서 발생하는 버그의 수정이나 취약점을 보완, 또는 성능 향상을 위해 긴그밯게 배포되는 패치가 필요할 때 사용되는 branch.
 - Release branch : 새로 출시하는 버전의 배포를 진행하는 브랜치이다. develop 브랜치에서 배포할 수 있는 수준의 기능이 모이거나, 배포 일정이 될 때 배포를 진행한다. 최종적인 버그 수정이나 문서 작성등을 진행하며 release 브랜치와 직접적으로 관련된 작업이 아니라면 새로운 기능을 추가로 병합하지는 않으며 release 후 master branch에 병합한다.
 
-![branch](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(6).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(6).png?raw=true" width="100%" height="30%" title="branch" alt="branch"></img>
+<!-- ![branch](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(6).png?raw=true) -->
 > 설정한 branching 전략대로 branch 별 커밋을 작성한 모습. git log를 통해 확인했습니다.
    
 이 workflow structure는 따로 프로젝트를 진행하면서 얻은 노하우를 통해 도출된 workflow가 아니라 단순히 개발 실무에 사용하는 workflow는 어떤 것이 있으며 git 을 사용한 workflow 전략으로 branching 방법에 대한 단순한 개념을 토대로 도출한 workflow 입니다.
@@ -149,7 +155,8 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Best_practice](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(7).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(7).png?raw=true" width="100%" height="30%" title="Best_practice" alt="Best_practice"></img>
+<!-- ![Best_practice](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(7).png?raw=true) -->
  > 팀에서 최종 도출이 된 Best Practice 개요
 
 저번 Awesome ChattingApp 프로젝트와 개발 과정에 대하여 변화한 점은 정형화된 개발 프로세스의 도입과 이슈관리 및 프로젝트 스프린트 관리를 진행할 수 있는 새로운 툴 Jira의 도입, Jenkins와 sonarqube 관련 플러그인을 도입하여 코드 품질에 대한 검사와 Jenkins를 통한 프로젝트 빌드 및 실행가능하며 배포가 가능한 형태의 파일을 제작한 것입니다. 
@@ -164,7 +171,8 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Issues](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(8).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(8).png?raw=true" width="100%" height="30%" title="Issues" alt="Issues"></img>
+<!-- ![Issues](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(8).png?raw=true) -->
 > 주어진 요구사항을 토대로 간단한 문서화 작업 후 에픽 이슈로 분류한 모습
  
 
@@ -174,13 +182,15 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Compare](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(9).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(9).png?raw=true" width="100%" height="30%" title="Compare" alt="Compare"></img>
+<!-- ![Compare](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(9).png?raw=true) -->
     
 보다시피 개발 후 도출물에 대한 퀄리티는 Best Practice를 적용한 쪽이 더 좋은 모습을 볼 수 있었습니다. 또한 Best Practice를 적용시켜 개발을 진행한 것이 개발 과정 중 발생하는 이슈에 대한 대처가 훨씬 깔끔했던 모습을 보이기도 했습니다.
 
  
 
-![JUnit_testcases](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(10).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(10).png?raw=true" width="100%" height="30%" title="JUnit_testcases" alt="JUnit_testcases"></img>
+<!-- ![JUnit_testcases](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(10).png?raw=true) -->
  > 프로젝트의 JUnit 테스트 케이스 일부
    
 또한 이전 Awesome Chatting App에서는 진행하지 못했던 테스트 케이스를 작성하고 모듈 별로 테스트를 진행하여 코드의 이상이 없는지 검증하는 과정을 거쳤습니다. Java는 JUnit이라는 외부 테스트 프레임워크가 존재합니다. 저희 팀은 이 프레임워크를 활용하여 함수 및 모듈에 대한 테스트를 진행했습니다.
@@ -189,7 +199,8 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
  
 
-![Sonarlint](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(11).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(11).png?raw=true" width="100%" height="30%" title="Sonarlint" alt="Sonarlint"></img>
+<!-- ![Sonarlint](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(11).png?raw=true) -->
  > Intellij sonarqube 관련 플러그인 sonarlint
    
 코드 품질에 대한 검사도 진행했습니다. Best Practice를 완전히 따른다면 Sonarqube의 환경을 설정하여 정적 검사를 진행해야 했으나 팀끼리 공유 가능한 Jenkins와 sonarqube의 서버를 구축하는데 실패하여 local 환경에서 IDE의 플러그인을 설치하여 코드 정적 분석을 진행했습니다. 코드 룰셋의 경우는 플러그인이 default로 제공하는 룰셋을 사용했으며 위의 사진은 sonarlint 플러그인의 분석을 진행하여 나온 결과입니다.
@@ -198,7 +209,8 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 
 CI/CD의 자동화가 가능한 툴인 Jenkins를 사용한 것도 이번 프로젝트의 잘했던 점 중 하나입니다.
 
-![Local_build](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(12).png?raw=true)
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(12).png?raw=true" width="100%" height="30%" title="Local_build" alt="Local_build"></img>
+<!-- ![Local_build](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(12).png?raw=true) -->
  > local 환경에 jenkins를 올려 프로젝트 빌드를 진행한 모습
    
 좌측 하단에서 보실 수 있는 것처럼 github repository와 연동하여 커밋이 올라갈 때마다 혹은 수동으로 빌드를 실행할 수 있고 완성된 빌드 버전을 토대로 고객에게 개발 후 도출된 기능을 체험해 볼 수 있는 프로토타입을 제작하여 제공할 수 있었습니다.

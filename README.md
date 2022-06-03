@@ -12,18 +12,18 @@
  - 작성이 완료되면 main branch로 PR을 날린다.   
 
  # Repository pulling 시 불필요한 .png & .gif or etc.. 파일들 제거하는 방법
- ### pull remote repo change   
+ ### Pull remote repo change   
 ```
  > git pull origin [branch]
 ```
    
-### set assume-unchanged files like .png, .gif, or etc..   
+### Set assume-unchanged files like .png, .gif, or etc..   
 ```
  > git update-index --assume-unchanged posts/**/**/*.png
  > git update-index --assume-unchanged posts/**/**/*.gif
 ```
    
-### remove them from local   
+### Remove them from local   
 ```
  > rm posts/**/**/*.png
  > rm posts/**/**/*.gif

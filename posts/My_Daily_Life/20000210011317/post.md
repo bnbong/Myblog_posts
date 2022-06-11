@@ -11,11 +11,11 @@
   - 한양대학교 ERICA 소프트웨어학부 19학번 (2019.03.02 ~ )
   - 대한민국 공군 ROKAF 병 825기 정보체계관리(30010 과정) (2021.04.12 ~ 2023.01.11)
   - GiftMusic backend 개발자 (2020.09 ~ 2021.04)
-
+   
   ## 🧑🏻‍💻 My Projects
 
   - [Follow Link Here](https://github.com/bnbong/bnbong.github.io)
-
+    
   ## 💻 My Stacks
     
     - Language & Frameworks
@@ -56,7 +56,7 @@
     <img src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat-square&logo=vim&logoColor=white"/>
     <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white"/>
   </div>
-  
+     
   ## 👀 I’m interested in ...
 
   - Python Django 프레임워크 등을 이용한 웹 백앤드 개발
@@ -64,20 +64,20 @@
   - 음악과 관련된 웹 또는 앱 개발
   - 게임 개발
   - 딥러닝 등의 AI 기술
-
+   
   ## 🌱 I’m currently learning ...
 
   - GoLang
   - JavaScript, Html
   - Django & MongoDB를 활용한 사이트 혹은 백앤드 개발
   - Algorithms (implemented with Python)
-
+   
   ## 💞️ I’m looking to collaborate on ...
 
   - 웹 백앤드 및 프론트앤드 개발 능력이 있으신 분
   - 컨텐츠 기획에 풍부한 경험이 있으신 분
   - 게임 프로그래머 이시거나 게임 프로그래밍을 해보신 분
-
+   
   ## 📫 How to reach me ...
 
   - MY WEBSITE :

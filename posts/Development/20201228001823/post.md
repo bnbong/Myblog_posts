@@ -19,8 +19,8 @@
 
  > 프로젝트 팀원과 같이 제작했던 앱 로고
       
-**Github Link** : https://github.com/bnbong/Awesome_ChattingApp      
-**Github Page Link** : https://bnbong.github.io/Awesome_ChattingApp/
+**Github Link** : [https://github.com/bnbong/Awesome_ChattingApp](https://github.com/bnbong/Awesome_ChattingApp)    
+**Github Page Link** : [https://bnbong.github.io/Awesome_ChattingApp/](https://bnbong.github.io/Awesome_ChattingApp/)
  
       
 아마도 소프트웨어 학과의 학생이 되고 난 이후로 가장 신경을 많이 썼고 많은 시간을 정직하게(?) 투자했던 프로젝트라고 생각이 듭니다.
@@ -108,9 +108,9 @@ github에서는 프로젝트의 wiki문서, 프로젝트 관리, issue 관리, P
 <img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(3).png?raw=true" width="100%" height="30%" title="Space_invaders_logo" alt="Space_invaders_logo"></img>
 <!-- ![Space_invaders_logo](https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20201228001823/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20(3).png?raw=true) -->
  > space invaders 로고
-**원본 Space Invaders github 주소** : https://github.com/RobertoIA/Invaders
+**원본 Space Invaders github 주소** : [https://github.com/RobertoIA/Invaders](https://github.com/RobertoIA/Invaders)
       
-**Github Link** : https://github.com/ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice
+**Github Link** : [https://github.com/ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice](https://github.com/ERICA-SWDevelopmentPractice-JunhyeokLee/SETB-BestPractice)
        
    
 많은 사람들의 사랑을 받았고 지금까지도 변형된 형태로 나오고 있는 유명 고전 게임 space invaders 입니다. 2020년도 하반기에 진행했던 해당 프로젝트는 상단의 Java로 작성된 space invaders 소스를 가지고 추가적인 기능 추가 및 버그 수정 등을 진행하는 작업을 했습니다. 이번 프로젝트는 Awesome ChattingApp 처럼 오픈 소스를 제공하는 목적이 아니라 가상의 소프트웨어 개발회사의 기획 혁신팀으로 배정이 되어 있는 시나리오에서 모 회사의 원활한 개발을 위한 Best Practice를 구상하고 Space invader을 Best Practice를 적용시킬 demo project로 설정해서 Best Practice를 검증을 하는 용도의 프로젝트 였습니다.

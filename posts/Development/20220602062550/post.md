@@ -52,7 +52,7 @@
 
  일반적인 윈도우 사용자나 개발자가 아닌 분들은 좀 낯설 수 있는 마크다운 파일에 대한 마크다운 파일 작성법은 하단의 내용을 통해 참조하시면서 작성하시길 바랍니다.
 
-https://gist.github.com/ihoneymon/652be052a0727ad59601
+[https://gist.github.com/ihoneymon/652be052a0727ad59601](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 
 
  프로필을 작성할 때, 자신의 기술 스텍이나 자신의 연락처 등을 남길 때, 단순히 링크만 올리는 것이 부담되는 경우에는 다음과 같이 뱃지를 사용하여 표현하거나 뱃지에 링크를 걸 수 있습니다.
@@ -62,19 +62,19 @@ https://gist.github.com/ihoneymon/652be052a0727ad59601
    
  깃허브를 꾸밀 때 자주 사용할 수 있는 뱃지들을 잘 정리해 놓은 저장소는 하단에 링크에 첨부해 두었습니다. 해당 글에 표시된 URL을 그대로 복사하여 붙여 넣으시거나 URL의 내용을 살짝 수정해 크기나 색깔을 조절할 수 있습니다. 뱃지 말고도 내 README.md파일이 열람된 횟수를 볼 수 있는 hits기능 등의 여러 기능들도 첨부되어 있으니 참고 바랍니다.
 
-https://github.com/alexandresanlim/Badges4-README.md-Profile#-frameworks-
+[https://github.com/alexandresanlim/Badges4-README.md-Profile#-frameworks-](https://github.com/alexandresanlim/Badges4-README.md-Profile#-frameworks-)
 
 
  이모티콘을 통해 좀 더 재밌는 표현을 사용할 수 있습니다.
 
-https://getemoji.com/
+[https://getemoji.com/](https://getemoji.com/)
 
 
  하단의 링크는 참조용으로 첨부해 놓은 제 깃허브 프로필 링크입니다. 여러분들의 깃허브 프로필을 작성하실 때 참고가 되면 좋겠습니다!
 
 
 
-https://github.com/bnbong
+[https://github.com/bnbong](https://github.com/bnbong)
 
 <img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20220602062550/img%20(6).jpg?raw=true" width="100%" height="30%" title="i_cant" alt="i_cant"></img>
    

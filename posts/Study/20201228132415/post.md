@@ -93,51 +93,52 @@ __*T(n) = n - 1*__
 
 오름차순으로 정렬을 수행한다고 가정하여 상단에 소개한 C++기반의 psudo로 작성된 partition 함수와 quicksort 함수를 구현한 코드는 다음과 같습니다.
    
-```
-import time
+<code class="inlinecode">
 
-# 이하 코드는 pivot 값을 맨 첫번째 값으로 정했을 때의 퀵정렬 알고리즘 이다.
-def partition_ASC(arr, start, end, comp, exchange): # 오름차순으로 분배
-    pivot = arr[start]
-    L = start
-    R = end
-    done = False
+    import time
 
-    while not done:
+    # 이하 코드는 pivot 값을 맨 첫번째 값으로 정했을 때의 퀵정렬 알고리즘 이다.
+    def partition_ASC(arr, start, end, comp, exchange): # 오름차순으로 분배
+        pivot = arr[start]
+        L = start
+        R = end
+        done = False
 
-        while L <= len(arr)-1 and arr[L] <= pivot: # comparison
-            if L == len(arr)-1:
-                break
-            comp += 1
-            L += 1
+        while not done:
 
-        while R >= 0 and pivot < arr[R]: # comparison
-            if R == 0:
-                break
-            comp += 1
-            R -= 1
+            while L <= len(arr)-1 and arr[L] <= pivot: # comparison
+                if L == len(arr)-1:
+                    break
+                comp += 1
+                L += 1
 
-        if R <= L:
-            done = True
+            while R >= 0 and pivot < arr[R]: # comparison
+                if R == 0:
+                    break
+                comp += 1
+                R -= 1
 
-        else: # low < high -> swap
-            exchange += 1
-            arr[L], arr[R] = arr[R], arr[L]
+            if R <= L:
+                done = True
 
-    # change pivot and high -> swap
-    exchange += 1
-    arr[start], arr[R] = arr[R], arr[start]
+            else: # low < high -> swap
+                exchange += 1
+                arr[L], arr[R] = arr[R], arr[L]
 
-    return R, comp, exchange
+        # change pivot and high -> swap
+        exchange += 1
+        arr[start], arr[R] = arr[R], arr[start]
+
+        return R, comp, exchange
 
 
-def quick_sort_ASC(arr, start, end, comp, exchange): # 오름차순으로 정렬
-    if start < end:
-        pivot, comp, exchange = partition_ASC(arr, start, end, comp, exchange)
-        quick_sort_ASC(arr, start, pivot - 1, comp ,exchange)
-        quick_sort_ASC(arr, pivot + 1, end, comp, exchange)
-    return arr, comp, exchange
-```
+    def quick_sort_ASC(arr, start, end, comp, exchange): # 오름차순으로 정렬
+        if start < end:
+            pivot, comp, exchange = partition_ASC(arr, start, end, comp, exchange)
+            quick_sort_ASC(arr, start, pivot - 1, comp ,exchange)
+            quick_sort_ASC(arr, pivot + 1, end, comp, exchange)
+        return arr, comp, exchange
+</code>
    
 해당 quick sort 소스코드의 수행 능력을 분석하기 위해 비교연산 횟수와 원소 간의 위치 교환이 발생되는 횟수, input size (n)의 크기 별로 어느정도의 수행 시간이 걸리는지 ms단위로 측정을 진행했으며 그 결과는 다음과 같습니다.
 
@@ -170,136 +171,138 @@ def quick_sort_ASC(arr, start, end, comp, exchange): # 오름차순으로 정렬
 구현한 퀵소트 알고리즘은 다음과 같습니다.
 
    
-```
-from random import randint
-import time
+<code class="inlinecode">
 
-# 이하 코드는 pivot 값을 맨 첫번째 값으로 정했을 때의 퀵정렬 알고리즘 이다.
-def partition_first(arr, start, end, comp, exchange): # 오름차순으로 분배
-    pivot = arr[start]
-    L = start
-    R = end
-    done = False
+    from random import randint
+    import time
 
-    while not done:
+    # 이하 코드는 pivot 값을 맨 첫번째 값으로 정했을 때의 퀵정렬 알고리즘 이다.
+    def partition_first(arr, start, end, comp, exchange): # 오름차순으로 분배
+        pivot = arr[start]
+        L = start
+        R = end
+        done = False
 
-        while L <= len(arr)-1 and arr[L] <= pivot: # comparison
-            if L == len(arr)-1:
-                break
-            comp += 1
-            L += 1
+        while not done:
 
-        while R >= 0 and pivot < arr[R]: # comparison
-            if R == 0:
-                break
-            comp += 1
-            R -= 1
+            while L <= len(arr)-1 and arr[L] <= pivot: # comparison
+                if L == len(arr)-1:
+                    break
+                comp += 1
+                L += 1
 
-        if R <= L:
-            done = True
+            while R >= 0 and pivot < arr[R]: # comparison
+                if R == 0:
+                    break
+                comp += 1
+                R -= 1
 
-        else: # low < high -> swap
-            exchange += 1
-            arr[L], arr[R] = arr[R], arr[L]
+            if R <= L:
+                done = True
 
-    # change pivot and high -> swap
-    exchange += 1
-    arr[start], arr[R] = arr[R], arr[start]
+            else: # low < high -> swap
+                exchange += 1
+                arr[L], arr[R] = arr[R], arr[L]
 
-    return R, comp, exchange
+        # change pivot and high -> swap
+        exchange += 1
+        arr[start], arr[R] = arr[R], arr[start]
 
-
-def quick_sort_first(arr, start, end, comp, exchange): # 오름차순으로 정렬
-    if start < end:
-        pivot, comp, exchange = partition_first(arr, start, end, comp, exchange)
-        quick_sort_first(arr, start, pivot - 1, comp ,exchange)
-        quick_sort_first(arr, pivot + 1, end, comp, exchange)
-    return arr, comp, exchange
-
-# 이하 코드는 pivot 값을 low 와 high 어느 사이의 값으로 정했을 때의 퀵정렬 알고리즘 이다.
-def partition_random(arr, start, end, comp, exchange): # 오름차순으로 분배
-    L = start
-    R = end
-    pivot = arr[randint(start,end)]
-    done = False
-
-    while not done:
-
-        while L <= len(arr)-1 and arr[L] <= pivot: # comparison
-            if L == len(arr)-1:
-                break
-            comp += 1
-            L += 1
-
-        while R >= 0 and pivot < arr[R]: # comparison
-            if R == 0:
-                break
-            comp += 1
-            R -= 1
-
-        if R <= L:
-            done = True
-
-        else: # low < high -> swap
-            exchange += 1
-            arr[L], arr[R] = arr[R], arr[L]
-
-    # change pivot and high -> swap
-    exchange += 1
-    arr[start], arr[R] = arr[R], arr[start]
-
-    return R, comp, exchange
+        return R, comp, exchange
 
 
-def quick_sort_random(arr, start, end, comp, exchange): # 오름차순으로 정렬
-    if start < end:
-        pivot, comp, exchange = partition_random(arr, start, end, comp, exchange)
-        quick_sort_random(arr, start, pivot - 1, comp ,exchange)
-        quick_sort_random(arr, pivot + 1, end, comp, exchange)
-    return arr, comp, exchange
+    def quick_sort_first(arr, start, end, comp, exchange): # 오름차순으로 정렬
+        if start < end:
+            pivot, comp, exchange = partition_first(arr, start, end, comp, exchange)
+            quick_sort_first(arr, start, pivot - 1, comp ,exchange)
+            quick_sort_first(arr, pivot + 1, end, comp, exchange)
+        return arr, comp, exchange
 
-# 이하 코드는 pivot 값을 low 와 high 의 중간값으로 정했을 때의 퀵정렬 알고리즘 이다.
-def partition_mid(arr, start, end, comp, exchange): # 오름차순으로 분배
-    L = start
-    R = end
-    pivot = arr[(int)((start+end)/2)]
-    done = False
+    # 이하 코드는 pivot 값을 low 와 high 어느 사이의 값으로 정했을 때의 퀵정렬 알고리즘 이다.
+    def partition_random(arr, start, end, comp, exchange): # 오름차순으로 분배
+        L = start
+        R = end
+        pivot = arr[randint(start,end)]
+        done = False
 
-    while not done:
+        while not done:
 
-        while L <= len(arr)-1 and arr[L] <= pivot: # comparison
-            if L == len(arr)-1:
-                break
-            comp += 1
-            L += 1
+            while L <= len(arr)-1 and arr[L] <= pivot: # comparison
+                if L == len(arr)-1:
+                    break
+                comp += 1
+                L += 1
 
-        while R >= 0 and pivot < arr[R]: # comparison
-            if R == 0:
-                break
-            comp += 1
-            R -= 1
+            while R >= 0 and pivot < arr[R]: # comparison
+                if R == 0:
+                    break
+                comp += 1
+                R -= 1
 
-        if R <= L:
-            done = True
+            if R <= L:
+                done = True
 
-        else: # low < high -> swap
-            exchange += 1
-            arr[L], arr[R] = arr[R], arr[L]
+            else: # low < high -> swap
+                exchange += 1
+                arr[L], arr[R] = arr[R], arr[L]
 
-    # change pivot and high -> swap
-    exchange += 1
-    arr[start], arr[R] = arr[R], arr[start]
+        # change pivot and high -> swap
+        exchange += 1
+        arr[start], arr[R] = arr[R], arr[start]
 
-    return R, comp, exchange
+        return R, comp, exchange
 
 
-def quick_sort_mid(arr, start, end, comp, exchange): # 오름차순으로 정렬
-    if start < end:
-        pivot, comp, exchange = partition_mid(arr, start, end, comp, exchange)
-        quick_sort_mid(arr, start, pivot - 1, comp ,exchange)
-        quick_sort_mid(arr, pivot + 1, end, comp, exchange)
-    return arr, comp, exchange
-```
+    def quick_sort_random(arr, start, end, comp, exchange): # 오름차순으로 정렬
+        if start < end:
+            pivot, comp, exchange = partition_random(arr, start, end, comp, exchange)
+            quick_sort_random(arr, start, pivot - 1, comp ,exchange)
+            quick_sort_random(arr, pivot + 1, end, comp, exchange)
+        return arr, comp, exchange
+
+    # 이하 코드는 pivot 값을 low 와 high 의 중간값으로 정했을 때의 퀵정렬 알고리즘 이다.
+    def partition_mid(arr, start, end, comp, exchange): # 오름차순으로 분배
+        L = start
+        R = end
+        pivot = arr[(int)((start+end)/2)]
+        done = False
+
+        while not done:
+
+            while L <= len(arr)-1 and arr[L] <= pivot: # comparison
+                if L == len(arr)-1:
+                    break
+                comp += 1
+                L += 1
+
+            while R >= 0 and pivot < arr[R]: # comparison
+                if R == 0:
+                    break
+                comp += 1
+                R -= 1
+
+            if R <= L:
+                done = True
+
+            else: # low < high -> swap
+                exchange += 1
+                arr[L], arr[R] = arr[R], arr[L]
+
+        # change pivot and high -> swap
+        exchange += 1
+        arr[start], arr[R] = arr[R], arr[start]
+
+        return R, comp, exchange
+
+
+    def quick_sort_mid(arr, start, end, comp, exchange): # 오름차순으로 정렬
+        if start < end:
+            pivot, comp, exchange = partition_mid(arr, start, end, comp, exchange)
+            quick_sort_mid(arr, start, pivot - 1, comp ,exchange)
+            quick_sort_mid(arr, pivot + 1, end, comp, exchange)
+        return arr, comp, exchange
+
+</code>
    
 ## 가설
 알고리즘을 실행해서 결과를 얻기 전 3가지 방법 중 어느 방법이 가장 안정적이면서 빠른 수행 능력을 보여줄지 생각해 보았습니다. 이에 대해 제가 생각한 가설은 **pivot값을 low와 high의 중간에 위치하는 원소로 설정하는 것이 가장 안정적으로 정렬을 수행할 것이라고 생각**했습니다. 만약 pivot값을 첫 번째 원소로 설정한다면 정렬을 진행할 data들이 이미 정렬된 상태에 있을 때(원하는 정렬 결과는 오름차순 정렬인데 이미 내림차순으로 정렬이 되어 있을 경우) worst case time complexity를 가지기 때문에 이런 경우는 퀵정렬을 사용하는 것이 부적절하다고 생각했고 low와 high값 사이의 임의의 한 원소를 pivot으로 설정하면 그 사이의 임의의 값을 설정하는 알고리즘에 추가적인 시간 소요가 발생하여 실행 시간이 더 느려질 것이라고 예상되어 pivot을 low와 high의 중간 값으로 설정하는 것이 가장 바람직할 것이라고 생각했습니다.
@@ -376,34 +379,36 @@ def quick_sort_mid(arr, start, end, comp, exchange): # 오름차순으로 정렬
 
 다음은 random variable generator코드의 일부입니다.
    
-```
-# n = 3000, pivot = 1st elem
-list_3000 = [randint(1, 3001) for i in range(3000)]
-start_3000 = time.time()
-list_3000, comp, exchange = quick_sort_first(list_3000, 0, len(list_3000)-1, 0, 0)
-finish_3000 = time.time()
-print("pivot = 1st element, n = 3000 time : ", finish_3000 - start_3000)
-print("number of comparision : ", comp)
-print("number of exchange : ", exchange)
+<code class="inlinecode">
 
-# n = 3000, pivot = random elem
-list_3000 = [randint(1, 3001) for i in range(3000)]
-start_3000 = time.time()
-list_3000, comp, exchange = quick_sort_random(list_3000, 0, len(list_3000)-1, 0, 0)
-finish_3000 = time.time()
-print("pivot = random element, n = 3000 time : ", finish_3000 - start_3000)
-print("number of comparision : ", comp)
-print("number of exchange : ", exchange)
+    # n = 3000, pivot = 1st elem
+    list_3000 = [randint(1, 3001) for i in range(3000)]
+    start_3000 = time.time()
+    list_3000, comp, exchange = quick_sort_first(list_3000, 0, len(list_3000)-1, 0, 0)
+    finish_3000 = time.time()
+    print("pivot = 1st element, n = 3000 time : ", finish_3000 - start_3000)
+    print("number of comparision : ", comp)
+    print("number of exchange : ", exchange)
 
-# n = 3000, pivot = mid elem
-list_3000 = [randint(1, 3001) for i in range(3000)]
-start_3000 = time.time()
-list_3000, comp, exchange = quick_sort_mid(list_3000, 0, len(list_3000)-1, 0, 0)
-finish_3000 = time.time()
-print("pivot = mid element, n = 3000 time : ", finish_3000 - start_3000)
-print("number of comparision : ", comp)
-print("number of exchange : ", exchange)
-```
+    # n = 3000, pivot = random elem
+    list_3000 = [randint(1, 3001) for i in range(3000)]
+    start_3000 = time.time()
+    list_3000, comp, exchange = quick_sort_random(list_3000, 0, len(list_3000)-1, 0, 0)
+    finish_3000 = time.time()
+    print("pivot = random element, n = 3000 time : ", finish_3000 - start_3000)
+    print("number of comparision : ", comp)
+    print("number of exchange : ", exchange)
+
+    # n = 3000, pivot = mid elem
+    list_3000 = [randint(1, 3001) for i in range(3000)]
+    start_3000 = time.time()
+    list_3000, comp, exchange = quick_sort_mid(list_3000, 0, len(list_3000)-1, 0, 0)
+    finish_3000 = time.time()
+    print("pivot = mid element, n = 3000 time : ", finish_3000 - start_3000)
+    print("number of comparision : ", comp)
+    print("number of exchange : ", exchange)
+
+</code>
    
 이하는 각 결과를 pivot 설정 방법에 따라 차트로 그 결과를 정리한 모습입니다. Number of comparision은 모두 n과 같은 값을 나타내므로 제외시켰고 수행 시간과 exchange 값의 결과의 균형을 맞추기 위해 Time 값에 10000을 곱해 차트로 나타내보았습니다.
    

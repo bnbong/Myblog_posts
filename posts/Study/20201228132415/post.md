@@ -18,33 +18,37 @@ Quick Sort 알고리즘은 말 그대로 매우 빠른 정렬 수행 능력을 �
    
 해당 알고리즘을 C++기반의 알고리즘 언어로 표현하게 되면 다음과 같습니다. 하단에 작성된 알고리즘은 C++ 기반으로 작성이 되었으나, 단순히 알고리즘을 표현하기 위해 세부 문법을 고려하지 않고 작성하였기 때문에 문법적인 오류가 존재할 수 있습니다.
    
-```
-void quicksort (index low, index high){ // low for first index, high for last index.   
-	index pivotpoint;   
-    if ( high > low) {   
-    	partition( low, high, pivotpoint);   
-        quicksort( low, pivotpoint - 1);   
-        quicksort( pivotpoint + 1, high);   
-    }   
-}
-```
+<code class="inlinecode">
+
+    void quicksort (index low, index high){ // low for first index, high for last index.   
+        index pivotpoint;   
+        if ( high > low) {   
+            partition( low, high, pivotpoint);   
+            quicksort( low, pivotpoint - 1);   
+            quicksort( pivotpoint + 1, high);   
+        }   
+    }
+
+</code>
    
-```
-void partition (index low, index high, index& pivotpoint) { // partition two lists
-	index i,j;
-    keytype pivotitem;
-    pivotitem = S[low]; // Choose first item for pivotitem
-    j = low;
-    for( i = low + 1; i <= high; i++) {
-    	if( S[i] < pivotitem) {
-        	j++;
-            exchange S[i] and S[j];
-        }
-        pivotpoint = j;
-        exchange S[low] and S[pivotpoint]; // Put pivotitem at pivotpoint
-    }   
-}
-```
+<code class="inlinecode">
+
+    void partition (index low, index high, index& pivotpoint) { // partition two lists
+        index i,j;
+        keytype pivotitem;
+        pivotitem = S[low]; // Choose first item for pivotitem
+        j = low;
+        for( i = low + 1; i <= high; i++) {
+            if( S[i] < pivotitem) {
+                j++;
+                exchange S[i] and S[j];
+            }
+            pivotpoint = j;
+            exchange S[low] and S[pivotpoint]; // Put pivotitem at pivotpoint
+        }   
+    }
+
+</code>
    
 정렬을 수행하는 리스트의 첫 번째 원소를 S[0]이 아니라 S[1]이라고 가정을 해두고 partition 함수를 처음으로 수행하면 다음과 같은 결과가 나오게 됩니다.
 
@@ -141,10 +145,10 @@ __*T(n) = n - 1*__
 </code>
    
 해당 quick sort 소스코드의 수행 능력을 분석하기 위해 비교연산 횟수와 원소 간의 위치 교환이 발생되는 횟수, input size (n)의 크기 별로 어느정도의 수행 시간이 걸리는지 ms단위로 측정을 진행했으며 그 결과는 다음과 같습니다.
+   
 
 
-
-***Quick Sort Python***
+<!-- ***Quick Sort Python***
    
 |Comparison|Exchange|Time(ms)|
 |----|----|----|
@@ -155,7 +159,62 @@ __*T(n) = n - 1*__
 |2000	|497	|0.010002613067626953|
 |3000	|689	|0.01600360870361328|
 |4000	|997	|0.02200460433959961|
-|5000	|541	|0.027006864547729492|
+|5000	|541	|0.027006864547729492| -->
+
+<table border="1" width="70%" height="200">
+    <caption>
+        <b>Quick Sort Python</b>
+    </caption>
+    <thead>
+        <tr align="center">
+            <th><b>Comparison</b></th>
+            <th><b>Exchange</b></th>
+            <th><b>Time(ms)</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>100</td>
+            <td>19</td>
+            <td>0.0010006427764892578</td>
+        </tr>
+        <tr align="center">
+            <td>200</td>
+            <td>47</td>
+            <td>0.0009996891021728516</td>
+        </tr>
+        <tr align="center">
+            <td>500</td>
+            <td>128</td>
+            <td>0.0020003318786621094</td>
+        </tr>
+        <tr align="center">
+            <td>1000</td>
+            <td>200</td>
+            <td>0.0050008296966552734</td>
+        </tr>
+        <tr align="center">
+            <td>2000</td>
+            <td>497</td>
+            <td>0.010002613067626953</td>
+        </tr>
+        <tr align="center">
+            <td>3000</td>
+            <td>689</td>
+            <td>0.01600360870361328</td>
+        </tr>
+        <tr align="center">
+            <td>4000</td>
+            <td>997</td>
+            <td>0.02200460433959961</td>
+        </tr>
+        <tr align="center">
+            <td>5000</td>
+            <td>541</td>
+            <td>0.027006864547729492</td>
+        </tr>
+    </tbody>
+</table>
    
 각 input size에 맞는 리스트들의 원소는 python의 randint 함수를 사용해서 채워넣었습니다. randint 함수 기반의 random input generator에 의해 해당 리스트에 중복이 되는 원소가 들어가는 경우도 있어서 알고리즘을 작동시키는 매 시행마다 input size가 커진다고 해서 무조건 exchange 횟수와 알고리즘 실행 시간이 늘어나지는 않았습니다. 다만, input size가 커질수록 exchange 횟수와 알고리즘 실행 시간은 대체로 늘어나는 경향을 보입니다. Comparision 횟수는 퀵소트 알고리즘 이론과 동일하게 input size 만큼의 comparision연산을 수행한 것을 확인할 수 있었습니다.
 

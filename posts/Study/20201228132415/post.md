@@ -161,7 +161,7 @@ __*T(n) = n - 1*__
 |4000	|997	|0.02200460433959961|
 |5000	|541	|0.027006864547729492| -->
 
-<table border="1" width="70%" height="200">
+<table border="1" width="80%" height="200">
     <caption>
         <b>Quick Sort Python</b>
     </caption>
@@ -393,47 +393,198 @@ __*T(n) = n - 1*__
 
  - 첫 번째 시행
    
-|Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
+<!-- |Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
 |----|----|----|----|
 |1st element|	0.01700305938720703|	3000	|383|
 |Between low and high|	0.019004344940185547	|3000|	602|
-|Mid element|	0.017003536224365234|	3000	|204|
+|Mid element|	0.017003536224365234|	3000	|204| -->
+
+<table border="1" width="80%" height="200">
+    <thead>
+        <tr align="center">
+            <th><b>Pivot설정 방법</b></th>
+            <th><b>Time(ms)</b></th>
+            <th><b>Comparison(ms)</b></th>
+            <th><b>Exchange</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st element</td>
+            <td>0.01700305938720703</td>
+            <td>3000</td>
+            <td>383</td>
+        </tr>
+        <tr align="center">
+            <td>Between low and high</td>
+            <td>0.019004344940185547</td>
+            <td>3000</td>
+            <td>602</td>
+        </tr>
+        <tr align="center">
+            <td>Mid element</td>
+            <td>0.017003536224365234</td>
+            <td>3000</td>
+            <td>204</td>
+        </tr>
+    </tbody>
+</table>
  
 
  - 두 번째 시행
    
-|Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
+<!-- |Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
 |----|----|----|----|
 |1st element|	0.017003536224365234|	3000	|668|
 |Between low and high|	0.0200045108795166|	3000|	627|
-|Mid element|	0.017003774642944336|	3000	|358|
+|Mid element|	0.017003774642944336|	3000	|358| -->
+<table border="1" width="80%" height="200">
+    <thead>
+        <tr align="center">
+            <th><b>Pivot설정 방법</b></th>
+            <th><b>Time(ms)</b></th>
+            <th><b>Comparison(ms)</b></th>
+            <th><b>Exchange</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st element</td>
+            <td>0.017003536224365234</td>
+            <td>3000</td>
+            <td>668</td>
+        </tr>
+        <tr align="center">
+            <td>Between low and high</td>
+            <td>0.0200045108795166</td>
+            <td>3000</td>
+            <td>627</td>
+        </tr>
+        <tr align="center">
+            <td>Mid element</td>
+            <td>0.017003774642944336</td>
+            <td>3000</td>
+            <td>358</td>
+        </tr>
+    </tbody>
+</table>
  
 
  - 세 번째 시행
    
-|Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
+<!-- |Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
 |----|----|----|----|
 |1st element|	0.01600337028503418|	3000	|263|
 |Between low and high|	0.018004417419433594|	3000|	744|
-|Mid element|	0.01800370216369629|	3000	|513|
+|Mid element|	0.01800370216369629|	3000	|513| -->
+<table border="1" width="80%" height="200">
+    <thead>
+        <tr align="center">
+            <th><b>Pivot설정 방법</b></th>
+            <th><b>Time(ms)</b></th>
+            <th><b>Comparison(ms)</b></th>
+            <th><b>Exchange</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st element</td>
+            <td>0.01600337028503418</td>
+            <td>3000</td>
+            <td>263</td>
+        </tr>
+        <tr align="center">
+            <td>Between low and high</td>
+            <td>0.018004417419433594</td>
+            <td>3000</td>
+            <td>744</td>
+        </tr>
+        <tr align="center">
+            <td>Mid element</td>
+            <td>0.01800370216369629</td>
+            <td>3000</td>
+            <td>513</td>
+        </tr>
+    </tbody>
+</table>
  
 
  - 네 번째 시행
    
-|Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
+<!-- |Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
 |----|----|----|----|
 |1st element|	0.017003536224365234|	3000	|742|
 |Between low and high|	0.019004344940185547	|3000	|725|
-|Mid element	|0.01800370216369629	|3000	|748|
+|Mid element	|0.01800370216369629	|3000	|748| -->
+<table border="1" width="80%" height="200">
+    <thead>
+        <tr align="center">
+            <th><b>Pivot설정 방법</b></th>
+            <th><b>Time(ms)</b></th>
+            <th><b>Comparison(ms)</b></th>
+            <th><b>Exchange</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st element</td>
+            <td>0.017003536224365234</td>
+            <td>3000</td>
+            <td>742</td>
+        </tr>
+        <tr align="center">
+            <td>Between low and high</td>
+            <td>0.019004344940185547</td>
+            <td>3000</td>
+            <td>725</td>
+        </tr>
+        <tr align="center">
+            <td>Mid element</td>
+            <td>0.01800370216369629</td>
+            <td>3000</td>
+            <td>748</td>
+        </tr>
+    </tbody>
+</table>
  
 
  - 다섯 번째 시행
    
-|Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
+<!-- |Pivot설정 방법|	Time(ms)|	Comparison|	Exchange|
 |----|----|----|----|
 |1st element	|0.01700425148010254	|3000	|186|
 |Between low and high	|0.0200045108795166	|3000	|79|
-|Mid element	|0.01800394058227539	|3000	|620|
+|Mid element	|0.01800394058227539	|3000	|620| -->
+<table border="1" width="80%" height="200">
+    <thead>
+        <tr align="center">
+            <th><b>Pivot설정 방법</b></th>
+            <th><b>Time(ms)</b></th>
+            <th><b>Comparison(ms)</b></th>
+            <th><b>Exchange</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st element</td>
+            <td>0.01700425148010254</td>
+            <td>3000</td>
+            <td>186</td>
+        </tr>
+        <tr align="center">
+            <td>Between low and high</td>
+            <td>0.0200045108795166</td>
+            <td>3000</td>
+            <td>79</td>
+        </tr>
+        <tr align="center">
+            <td>Mid element</td>
+            <td>0.01800394058227539</td>
+            <td>3000</td>
+            <td>620</td>
+        </tr>
+    </tbody>
+</table>
    
 
 다음은 random variable generator코드의 일부입니다.
@@ -483,11 +634,37 @@ __*T(n) = n - 1*__
 
 
    
-|Pivot 설정방법	|Time(ms * 10000)	|Exchange
+<!-- |Pivot 설정방법	|Time(ms * 10000)	|Exchange
 |----|----|----|
 |1st element|	168.032|	448.4|
 |Between low and high|	192.04|	555.4|
-|Mid element	|176.03	|488.6|
+|Mid element	|176.03	|488.6| -->
+<table border="1" width="80%" height="200">
+    <thead>
+        <tr align="center">
+            <th><b>Pivot설정 방법</b></th>
+            <th><b>Time(ms)</b></th>
+            <th><b>Exchange</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1st element</td>
+            <td>168.032</td>
+            <td>448.4</td>
+        </tr>
+        <tr align="center">
+            <td>Between low and high</td>
+            <td>192.04</td>
+            <td>555.4</td>
+        </tr>
+        <tr align="center">
+            <td>Mid element</td>
+            <td>176.03</td>
+            <td>488.6</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## 결과 분석

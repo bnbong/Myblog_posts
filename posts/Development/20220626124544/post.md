@@ -29,7 +29,7 @@
  - TL;DR (Too Long. Didn't Read) : 요약해서 올립니다. 한국의 경우 너무 긴 글의 경우 센스있는 사람들은 마지막 줄에 3줄요약을 해서 올리는 것처럼 장문 시작부분에 요약을 올릴 때 사용하는 단어.
  - WFM (Works For Me) : 나에게(또는 내환경에서)는 괜찮다.
 
-<img src="https://github.com/bnbong/Myblog_posts/blob/posts/master/20220626124544/real_lgtm.png?raw=true" width="100%" height="30%" title="lgtm_real" alt="lgtm_real"></img>
+<img src="https://github.com/bnbong/Myblog_posts/blob/master/posts/Development/20220626124544/real_lgtm.png?raw=true" width="100%" height="30%" title="lgtm_real" alt="lgtm_real"></img>
  > 실제로 깃허브 프로젝트에서 약어를 사용하는 모습.
    
 # 마치며..

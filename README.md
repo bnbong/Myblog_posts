@@ -1,4 +1,4 @@
-# Draft 작성 규칙
+# Draft 작성법
  - Category는 My_Daily_Life, IT, Development, Study, Game, Hobby로 통일한다.
 
  - 폴더는 [**Category**]-[**작성 일자(수정 일자)**]로 구성되어야한다.  
